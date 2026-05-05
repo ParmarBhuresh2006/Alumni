@@ -24,11 +24,11 @@ A platform built to bring alumni together — relive memories, attend events, ex
 
 | Home | Events |
 |------|--------|
-| <img src="https://bhureshparmar1436.github.io/Alumni/Images/WhatsApp Image 2024-03-02 at 12.13.55 PM.jpeg" width="340px" alt="Home Page" /> | <img src="https://bhureshparmar1436.github.io/Alumni/Images/WhatsApp Image 2024-03-02 at 11.45.30 AM.jpeg" width="340px" alt="Events Page" /> |
+| <img src="https://github.com/ParmarBhuresh2006/Alumni/blob/main/Screenshots/Home.png" width="340px" alt="Home Page" /> | <img src="https://github.com/ParmarBhuresh2006/Alumni/blob/main/Screenshots/Event.png" width="340px" alt="Events Page" /> |
 
 | Gallery | Group |
 |---------|-------|
-| <img src="https://bhureshparmar1436.github.io/Alumni/Images/WhatsApp Image 2024-03-02 at 1.34.26 PM.jpeg" width="340px" alt="Gallery Page" /> | <img src="https://alumni.auburn.edu/files/2024/01/SAA-Group-Resized-bf908b077fefa84b.jpg" width="340px" alt="Group Page" /> |
+| <img src="https://github.com/ParmarBhuresh2006/Alumni/blob/main/Screenshots/Gallery.png" width="340px" alt="Gallery Page" /> | <img src="https://github.com/ParmarBhuresh2006/Alumni/blob/main/Screenshots/Group.png" width="340px" alt="Group Page" /> |
 
 </div>
 
