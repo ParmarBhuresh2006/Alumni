@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>event</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<style>
+    .event {
+        margin-bottom: 30px;
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center; /* Center items vertically */
+    }
+
+    .event-heading {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .event-description {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .event-details {
+        font-size: 16px;
+    }
+
+    .profile-picture1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /*background-color: #ccc;*/
+        background-image: url('Images/Ganesh.jpeg');
+        background-size: cover;
+        border: 2px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-right: 20px; /* Add margin to create space */
+    }
+    .profile-picture2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /*background-color: #ccc;*/
+        background-image: url('Images/WhatsApp Image 2024-03-02 at 2.02.02 PM.jpeg');
+        background-size: cover;
+        border: 2px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-right: 20px; /* Add margin to create space */
+    }
+    .profile-picture3 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        /*background-color: #ccc;*/
+        background-image: url('Images/Ganesh.jpeg');
+        background-size: cover;
+        border: 2px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-right: 20px; /* Add margin to create space */
+    }
+
+
+
+    .event:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .animated {
+        animation: fadeIn 1s ease-out;
+    }
+</style>
+</head>
+<body class="animsition">
+    <!-- Header -->
+	<header>
+		<!-- Header desktop -->
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+					
+
+					<!-- Menu -->
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<nav class="menu">
+							<ul class="main_menu">
+								<li>
+									<a href="./Index.html">Home</a>
+								</li>
+
+								<li>
+									<a href="./E2.html">Event</a>
+								</li>
+
+								<li>
+									<a href="./post.html">Connection</a>
+								</li>
+
+								<li>
+									<a href="./G1.html">Group</a>
+								</li>
+								<li>
+									<a href="./G2.html">Gallery</a>
+								</li>
+								<li>
+									<a href="about.html">About</a>
+								</li>
+
+								<li>
+									<a href="./C2.html">Contact Us</a>
+								</li>
+
+								
+							</ul>
+						</nav>
+					</div>
+					<div class="wrap-btn-slide1 animated visible-false zoomIn visible-true" data-appear="zoomIn">
+						<!-- Button1 -->
+						<a href="./Login.html" class="btn1 flex-c-m size1 txt3 trans-0-4" tabindex="0">
+								Login
+						</a>
+                        <button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+    <!-- Sidebar -->
+	<aside class="sidebar trans-0-4">
+		<!-- Button Hide sidebar -->
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+		<!-- - -->
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13">
+				<a href="index.html" class="txt19">Home</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="E2.html" class="txt19">Event</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="post.html" class="txt19">Connection</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="G1.html" class="txt19">Group</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="G2.html" class="txt19">Gallery</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="about.html" class="txt19">About</a>
+			</li>
+			<li class="t-center m-b-33">
+				<a href="C2.html" class="txt19">Contact us</a>
+			</li>
+
+			<li class="t-center">
+				<!-- Button3 -->
+				<a href="Login.html" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
+					Login
+				</a>
+			</li>
+		</ul>
+		</aside>
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(Images/22428442_6561350.jpg);">
+<h2 class="tit6 t-center">
+Event
+</h2>
+</section>
+<br>
+<br>
+<br>
+<div class="event animated">
+    <div class="profile-picture1"></div>
+    <div>
+        <div class="event-heading">Ganesh Chaturthi</div>
+        <div class="event-description">Celebration Of Ganesh birthday</div>
+        <div class="event-details">Details: At date time at 7:30</div>
+    </div>
+</div>
+
+<div class="event animated">
+    <div class="profile-picture2"></div>
+    <div>
+        <div class="event-heading">Event 2</div>
+        <div class="event-description">Description: Duis vehicula purus sit amet est varius, nec suscipit justo malesuada.</div>
+        <div class="event-details">Details: Phasellus congue risus a lorem efficitur, sit amet tristique eros laoreet.</div>
+    </div>
+</div>
+
+<div class="event animated">
+    <div class="profile-picture3"></div>
+    <div>
+        <div class="event-heading">Event 3</div>
+        <div class="event-description">Description: Sed tempus justo a consectetur dignissim.</div>
+        <div class="event-details">Details: Fusce nec nibh eu libero venenatis eleifend.</div>
+    </div>
+</div>
+
+<script>
+    // Add animations to events
+    document.querySelectorAll('.event').forEach((event, index) => {
+        event.style.animationDelay = `${index * 0.5}s`;
+    });
+</script>
+<!--===============================================================================================-->
+<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>
+
